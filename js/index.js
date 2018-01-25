@@ -17,4 +17,13 @@ $(function () {
             $(this).parents('.m2-show').children('a').hide().eq(index).css('display','block')
         })
     })
+
+    $('.foot').click(function(){
+        $('.zg-appointment').show();
+        $('.zg-mask').show()
+    })
+    $('.zg-appointment em').click(function(){
+        $('.zg-mask').hide();
+        $('.zg-appointment').hide();
+    })
 })

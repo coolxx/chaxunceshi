@@ -324,9 +324,72 @@ table{border-collapse:collapse;border-spacing:0;}
     -webkit-background-size: 7.2rem;
     background-size: 7.2rem;
 }
-.foot a{
+.foot span{
     display: block;
     width:100%;
     height:100%;
     text-indent: -9999rem;
+}
+.zg-mask{
+    width:7.2rem;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+.zg-appointment{
+    position: fixed;
+    top: 50%;
+    margin-top: -1.1rem;
+    width: 7.2rem;
+    height: 2.34rem;
+    background: url(../images/yy.jpg) no-repeat center;
+    background-size: 7.2rem;
+    z-index: 9999;
+    display: none;
+}
+.zg-appointment input{
+    border: none;
+    background: none;
+    outline: none;
+}
+.zg-appointment div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.zg-appointment div em{
+    width: 0.58rem;
+    height: 0.58rem;
+    position: absolute;
+    top:0rem;
+    right: 0rem;
+}
+.zg-appointment div input:nth-child(2){
+    width: 3.37rem;
+    height: 0.52rem;
+    text-indent: 1em;
+    position: absolute;
+    left: 1.4rem;
+    top: 0.81rem;
+    font-size: 0.24rem
+}
+.zg-appointment div input:nth-child(3){
+    width: 3.37rem;
+    height: 0.52rem;
+    text-indent: 1em;
+    position: absolute;
+    left: 1.4rem;
+    top: 1.54rem;
+    font-size: 0.24rem
+}
+.zg-appointment div input[type='submit']{
+    width: 1.83rem;
+    height: 0.62rem;
+    position: absolute;
+    right: 0.28rem;
+    top: 1.13rem;
+    text-indent: -9999rem
 }
