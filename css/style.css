@@ -92,7 +92,7 @@ table{border-collapse:collapse;border-spacing:0;}
 .m1-cont a{
     display: block;
     font:normal 0.26rem "微软雅黑";
-    margin-top:26px;
+    margin-top:0.26rem;
     margin-left:1.2rem;
     padding-left:0.3rem;
     background: url("../images/m7.png") no-repeat left center;
